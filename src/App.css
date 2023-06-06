@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.handle {
+  font-weight: 1000;
+  white-space: pre-wrap;
+  font-size: 30px;
+  margin-block-start: 4px;
+  margin-block-end: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  color: white;
+  line-height: 24px;
+}

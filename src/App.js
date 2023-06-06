@@ -1,26 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import ig from "./images/ig.svg"
+import kick from "./images/kick.png"
+import substack from "./images/substack.png"
+import twitch from "./images/twitch.png"
+import twitter from "./images/twitter.svg"
+import youtube from "./images/youtube.svg"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <img src={} />
-      </header>
-    </div>
-  );
+    return (
+        <div style={{display: "flex", justifyContent: "flex-end"}}>
+            <div style={{display: "flex", flexDirection:"column", alignItems: "center",}}>
+                <div style={{display: "flex", alignItems: "center"}}>
+                    <img style={{height: 35, margin: 4}} src={twitter}/>
+                    <img style={{height: 35, margin: 4}} src={ig}/>
+                    <img style={{height: 35, margin: 4}} src={youtube}/>
+                    <img style={{height: 35, margin: 4}} src={twitch}/>
+                    <img style={{height: 35, margin: 4}} src={kick}/>
+                    <img style={{height: 35, margin: 4}} src={substack}/>
+                </div>
+                <p className="handle">@mlmstreamer</p>
+            </div>
+        </div>
+    );
 }
 
 export default App;
