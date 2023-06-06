@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ig from "./images/ig.svg"
 import kick from "./images/kick.png"
@@ -9,7 +8,7 @@ import youtube from "./images/youtube.svg"
 
 function App() {
     return (
-        <div style={{display: "flex", justifyContent: "flex-end"}}>
+        <div style={{display: "flex", justifyContent: "flex-end", margin: 18}}>
             <div style={{display: "flex", flexDirection:"column", alignItems: "center",}}>
                 <div style={{display: "flex", alignItems: "center"}}>
                     <img style={{height: 35, margin: 4}} src={twitter}/>
