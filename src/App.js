@@ -4,7 +4,7 @@ import kick from "./images/kick.png"
 import substack from "./images/substack.png"
 import twitch from "./images/twitch.png"
 import twitter from "./images/twitter.svg"
-import newTwitter from "./images/Featured Twitter New Logo.jpg"
+import newTwitter from "./images/twitter-x-logo-101C7D2420-seeklogo.com.png"
 import youtube from "./images/youtube.svg"
 
 function App() {
